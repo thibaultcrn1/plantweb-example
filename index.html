@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerson | PlantWeb</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/bulma/css/bulma.min.css">
+
+    <script src="https://kit.fontawesome.com/4a6366bf56.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3 class="brand">
+                <img src="img/logo.png" alt="logo">
+            </h3>
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="far fa-eye"></i>
+                        <span>View</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-cogs"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-user-friends"></i>
+                        <span>Teams</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-id-card"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>Disconnect</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="block">
+        <header class="header">
+            <img src="img/plantweb.png" alt="logo plantweb" class="header-logo">
+            <nav class="header-menu">
+                <a href="#"><i class="far fa-bell"></i></a>
+                <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+                <a href="#"><img src="img/user.png" alt="user"></a>
+            </nav>
+            <div class="header-line"></div>
+        </header>
+    </div>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="content">
+                <h1 class="measurement-point">Measurement-Point</h1>
+                <form action="" id="search">
+                    <input type="text" name="search">
+                </form>
+                <button class="button is-link">Send</button>
+            </div>
+            <div id="chartContainer" class="graph">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+</body>
+</html>
